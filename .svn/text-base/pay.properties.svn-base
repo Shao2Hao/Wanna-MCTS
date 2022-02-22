@@ -1,0 +1,39 @@
+
+#网站路径 根目录  以/结束  alipay_webPath为http://test.ostudio.cc/时
+#支付宝对应
+#notifyPage对应 http://test.ostudio.cc/action/payAlipay/notifyPage
+#returnPage对应 http://test.ostudio.cc/action/payAlipay/returnPage
+#微信对应
+#notifyPage对应 http://test.ostudio.cc/action/payWxpay/notifyPage
+#returnPage对应 http://test.ostudio.cc/action/payWxpay/returnPage
+pay_webPath=http://111.231.75.62/Newone/
+#付款对应的服务类  实现 m.pay.service.OutPayService 接口 多个用逗号(,)分开
+pay_serviceClass=app.service.OrderPayService
+
+#--------------alipay  start
+#支付宝网关  jdfouf4171@sandbox.com  111111
+alipay_url=https://openapi.alipay.com/gateway.do
+#商户appid   2018012201059344  2018012202025976
+alipay_appID=2018012202025976
+#私钥 pkcs8格式的
+alipay_rsaPrivateKey=MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/4cXqwfUeEEpP4F6o8MDOJHNy0GbgmVLS1D2Lg2n0oARIEiLYazvDXO3qzrpi3uyER4Mj9kTtFf7YiJItANIkZavnlY6qyfSj9c5pFJv+EEH8jP45BXpE7cqcU7VwxL0SS+MRGSuxL1MweRybCySkED1NW9Jp5cGU2xOruLtCexW8TlUoz8eerUuc8NUpSul1IHVmUGmQYce5c88M2z1v6RvwqRLxxipDcitRP00KJGXy2p6pnIezXijDjPOTQtDsmn51CIW8fjSFCFORBtQV6UYkL9MljS25GnekGjLPftMnqgee3imc5b2HH0PYe29R2iXqQ5LREXN6JFixvbrvAgMBAAECggEAdVVO3DXMeJzHhD6UQ8QsciGyAvRS5GZ9UfR8yfIK+Y5b7+I/Mo2oFtedmKbfLJRalqzQEU6HaV643pnsoN5OofkV/F/kxKUIFra5iGIU3W/9mbxxvFaQJNQvwBYj7hgv8Z8783mr0QY6XXrBtkFDH5vakJJkgWMAU9D/H1OwFn7zcyq0AqxJ0OOxPSctwRjp/CaBMYoEKdDNZM0fUkiY2wwPWLyRdE0+mSfM6ywM3cCE58Y7ZL9FuSj3p01NPT9tPZw7ateNfXeXpK9TTuZD+lojMnFoYoQkYdDMUdZybM/Ngq4hL8fZTm8yMRSC9VYIJWMYFrlPpEzl1hS3rjr4UQKBgQDyQgfOEBv/irxyaSES8uyRzBnzyOzLVZL30mk1WF8H49BeK/D8mBsFO+3c1sHbwSe5PHX2mPQyTJO8AxtBI0Rg8f5FTWLm+IXBVK5TILE4zs01iM0J2BsvIusATjtXqEcN7HeQvaup+nCdkoKNg8vpPO0Q3A0CMPpGRUUafNYmlwKBgQDKxDP+tBOEBnCOlbsbVHVOjO8kowjo+h96jf7W2t8QG/zFoiXM5S2w35bRjfK4UJYXcrRveUUa/jonCz3koYxEftU5MVZ4b+9/59kDyoRPZz2a2LG7Cd6ShVBBSEWcs8Wld4clFOUyUYzNHScGg6Tg08rTnibi6xhiD6iEsUMxaQKBgQDVq02M/wJiyi/ZzUWhm+bx1Q3SyhWoZcqhj9DBfzcaE2G1nZYIg/PZEvmBvVzwgRWTOHNm05MWRhpLSoYgVoW559Z3s4CW7P2z/gdfREdrLmMqY4VMuHGJioexFk8ayk4ZRsZSQCgHXN8064MAZA1WoykIpL1IgIBNuEzxxsdu8wKBgB/RYgdZ4qYZDJiTTmUff7jvzKcHHmLQvRfSKGc2uUIh4ixxIVVhsSXMMDJ5/9iEbMkJKt9DPGDb++wci33RC93DuVncMCF+DysXCqrZoKGFJdmin2EmT1LWsJ1N5f6NBzrL4t0ixkR7H4kgRftztO/CzFUgwCFjmtPoeR05Y73hAoGAVmdEB3DI38exmxQaRnvBtEnplCDkPDYLHvF2Fqem1SRNkuS7K0yN2GX0NACRnlPkf6t+VAsI8jVvc89saVzCLm4Ss1aUaOI49SwARYHY+d3vAD1389uASALqh0TSthQQiwXIDsciShdXPC7USDr7yFxLuC7dwsPJLLUERQEy7vA=
+#支付宝公钥 
+alipay_alipayPublicKey=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhu96RJrKSMUlx76JBSkkaMPV0Gt/bbM6LqYFvyU4TO5HiM2GqIOGdG5noz7ISngfXgE+CbLdWvuHvhN5ujkrblh81gAuPWPR6JAVUCl/DzXagyUdP+dhEw10AZRYc9GBLKgs9mqSoEfzPLvxCG7hTFOGHcH6M9h8ObKX+i9+PZhfK542NY87zhkRfx8D9LbUD8pqrjWdeSrhYI+ghbKn7W+INlq7H1QDI1KeVcnGlFMlXWkBjtr+QFREEoPbAdyswEmuy/k4vKaTw++CpZf7GJ2ujWTPpd5eIVi9UCBcnxYTdXkSLlvxh0taBzn/AeSM5XShLv/D5JvCA79zkH4tewIDAQAB
+#签名类型RSA2
+alipay_signType=RSA2
+#---------------alipay   end
+
+#---------------wxpay   start
+#微信分配的公众号ID（开通公众号之后可以获取到） //wxb4622994e2ce04d6  test wx88408a10d7da07c5
+wxpay_appID=wx2c438c255081eb8c
+#微信公众号的key  //f927c2a20f58ed23cad329c5f8e483ae  test 579396da303ebdd03a7784c35401e068
+wxpay_key=50d2f2edce133d28fdbdae638311a3a7
+#商户 api key
+wxpay_apiKey=4f2823f70f5b455c835f6b9425a36ceb
+#微信支付分配的商户号ID（开通公众号的微信支付功能之后可以获取到）
+wxpay_mchID=1499114812
+#HTTPS证书的本地路径
+wxpay_certLocalPath=apiclient_cert.p12
+#HTTPS证书密码，默认密码等于商户号MCHID
+wxpay_certPassword=1499114812
+#----------------wxpay   end

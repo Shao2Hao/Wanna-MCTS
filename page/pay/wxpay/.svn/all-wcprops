@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Project/!svn/ver/945/Newone/src_pay/page/pay/wxpay
+END
+pagePay.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Project/!svn/ver/945/Newone/src_pay/page/pay/wxpay/pagePay.jsp
+END
+doWxPay.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Project/!svn/ver/945/Newone/src_pay/page/pay/wxpay/doWxPay.jsp
+END
+toWxPay.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Project/!svn/ver/945/Newone/src_pay/page/pay/wxpay/toWxPay.jsp
+END
+returnPage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Project/!svn/ver/945/Newone/src_pay/page/pay/wxpay/returnPage.jsp
+END
+wapPay.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Project/!svn/ver/945/Newone/src_pay/page/pay/wxpay/wapPay.jsp
+END

@@ -1,0 +1,1 @@
+<%@ page language="java" pageEncoding="UTF-8"%><script>location=${htmlBody}.code_url;</script>

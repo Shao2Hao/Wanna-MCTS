@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/Project/!svn/ver/945/Newone/src_pay/test
+END
+test.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Project/!svn/ver/945/Newone/src_pay/test/test.java
+END
+WXPayConfigImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Project/!svn/ver/945/Newone/src_pay/test/WXPayConfigImpl.java
+END
+TestWXPay.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Project/!svn/ver/945/Newone/src_pay/test/TestWXPay.java
+END

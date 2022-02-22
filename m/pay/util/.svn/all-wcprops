@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util
+END
+ServiceResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Project/!svn/ver/945/Newone/src_pay/m/pay/util/ServiceResult.java
+END
+ConfirmPaymentResponseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/ConfirmPaymentResponseBean.java
+END
+SSLClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/SSLClient.java
+END
+WeChatConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/WeChatConfig.java
+END
+QueryPaymentRequestBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/QueryPaymentRequestBean.java
+END
+WXPayConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/WXPayConstants.java
+END
+PaymentStatusEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/PaymentStatusEnum.java
+END
+WXPayUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/WXPayUtil.java
+END
+QueryPaymentResponseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/QueryPaymentResponseBean.java
+END
+WeChatUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/WeChatUtil.java
+END
+RetCodeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/RetCodeEnum.java
+END
+PaymentRequestBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/PaymentRequestBean.java
+END
+NotifyResponseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/NotifyResponseBean.java
+END
+BaseResponseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/BaseResponseBean.java
+END
+SignTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/SignTools.java
+END
+PaymentResponseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/PaymentResponseBean.java
+END
+BusinessNoticeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/BusinessNoticeBean.java
+END
+PaymentConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/PaymentConstant.java
+END
+ConfirmPaymentRequestBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/ConfirmPaymentRequestBean.java
+END
+HttpClientCustomSSL.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/HttpClientCustomSSL.java
+END
+ReadSSl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/ReadSSl.java
+END
+WxPayConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Project/!svn/ver/945/Newone/src_pay/m/pay/util/WxPayConfig.java
+END
+XMLUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Project/!svn/ver/3436/Newone/src_pay/m/pay/util/XMLUtil.java
+END
